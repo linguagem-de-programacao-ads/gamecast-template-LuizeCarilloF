@@ -140,8 +140,19 @@ nav {
             color: rebeccapurple;
         }
     }
-}
 
+  
+}
+@media(max-width: 700px){
+    body{
+        background-color: #ff0000;
+    }
+    .cards{
+        .cardItem{
+            width: 70%;
+        }
+    }
+}
 
 
 /* ADICIONAR EVENTO - Inserir CSS da página de adicionar*/
