@@ -74,7 +74,7 @@ nav {
     font-size: 17px;
     background-color: var(--pure-black-transparent);
     border-radius: 5px 5px 0px 0px;
-    
+
     img {
         width: 6%;
         margin-right: 10px;
@@ -141,14 +141,16 @@ nav {
         }
     }
 
-  
+
 }
-@media(max-width: 700px){
-    body{
+
+@media(max-width: 700px) {
+    body {
         background-color: #ff0000;
     }
-    .cards{
-        .cardItem{
+
+    .cards {
+        .cardItem {
             width: 70%;
         }
     }
@@ -156,3 +158,23 @@ nav {
 
 
 /* ADICIONAR EVENTO - Inserir CSS da página de adicionar*/
+.formularioAdd {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+    form {
+        padding: 5px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    .btn btn-success{
+        display: flex;
+        justify-content: center;
+    }
+}

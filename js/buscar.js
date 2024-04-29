@@ -7,6 +7,7 @@ async function buscar() {
     const cards = window.document.getElementById("cards_games")
 
     cards.innerHTML = respostaDadosAgenda.map((itemAgenda) => {
+        // var dataAgenda = new Date(itemAgenda.dataJogo)
         return `
     <div class="cardItem">
     <div class="dataGame"> 
@@ -38,6 +39,7 @@ async function buscar() {
 console.log("antes de buscar")
 buscar();
 console.log("depois de buscar")
+
 
 //codigo assincrono nao bloqueia a execucao do programa enquanto uma tarefa esta sendo realizada
 //Promessa  é o que permite tarefas assincronas -- pendente - resolvida ou rejeitada.
